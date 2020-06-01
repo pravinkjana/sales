@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "SAMP_CUSTOMERS_D",
+    "name" : "Customers",
     "presentationColumns" : [ {
       "useLogicalName" : true,
       "name" : "CUST_KEY",

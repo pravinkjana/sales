@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "ProductsDimension",
+    "name" : "Products",
     "presentationColumns" : [ {
       "useLogicalName" : true,
       "name" : "PROD_KEY",

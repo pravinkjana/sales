@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "SAMP_ADDRESSES_D",
+    "name" : "Address",
     "presentationColumns" : [ {
       "useLogicalName" : true,
       "name" : "ADDRESS1",

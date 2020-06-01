@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "SAMP_TIME_DAY_D",
+    "name" : "Time",
     "presentationColumns" : [ {
       "useLogicalName" : true,
       "name" : "CALENDAR_DATE",

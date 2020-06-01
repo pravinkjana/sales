@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "SAMP_OFFICES_D",
+    "name" : "Offices",
     "presentationColumns" : [ {
       "useLogicalName" : true,
       "name" : "OFFICE_KEY",
