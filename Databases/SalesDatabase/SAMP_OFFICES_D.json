@@ -1,0 +1,60 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_OFFICES_D",
+    "physicalColumns" : [ {
+      "name" : "OFFICE_KEY",
+      "dataType" : "NUMBER",
+      "nullable" : false
+    }, {
+      "name" : "OFFICE_DSC",
+      "dataType" : "VARCHAR",
+      "length" : "255",
+      "nullable" : false
+    }, {
+      "name" : "COMPANY",
+      "dataType" : "VARCHAR",
+      "length" : "255",
+      "nullable" : false
+    }, {
+      "name" : "ORGANIZATION",
+      "dataType" : "VARCHAR",
+      "length" : "255",
+      "nullable" : false
+    }, {
+      "name" : "DEPARTMENT",
+      "dataType" : "VARCHAR",
+      "length" : "255",
+      "nullable" : false
+    }, {
+      "name" : "SEQUENCE",
+      "dataType" : "NUMBER",
+      "nullable" : false
+    }, {
+      "name" : "COMPANY_KEY",
+      "dataType" : "NUMBER",
+      "nullable" : false
+    }, {
+      "name" : "ORG_KEY",
+      "dataType" : "NUMBER",
+      "nullable" : false
+    }, {
+      "name" : "DEPT_KEY",
+      "dataType" : "NUMBER",
+      "nullable" : false
+    }, {
+      "name" : "ADDRESS_KEY",
+      "dataType" : "NUMBER",
+      "nullable" : false
+    }, {
+      "name" : "TOTAL_VALUE",
+      "dataType" : "VARCHAR",
+      "length" : "20",
+      "nullable" : false
+    }, {
+      "name" : "REGION",
+      "dataType" : "VARCHAR",
+      "length" : "20",
+      "nullable" : false
+    } ]
+  }
+}

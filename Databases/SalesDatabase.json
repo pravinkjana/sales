@@ -1,0 +1,51 @@
+{
+  "database" : {
+    "name" : "SalesDatabase",
+    "joins" : [ {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_CUSTOMERS_D",
+      "leftTable" : "physicalTable:MyDatabase.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:MyDatabase.SAMP_CUSTOMERS_D",
+      "joinConditions" : [ {
+        "leftColumn" : "CUST_KEY",
+        "rightColumn" : "CUST_KEY"
+      } ]
+    }, {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_OFFICES_D",
+      "leftTable" : "physicalTable:MyDatabase.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:MyDatabase.SAMP_OFFICES_D",
+      "joinConditions" : [ {
+        "leftColumn" : "OFFICE_KEY",
+        "rightColumn" : "OFFICE_KEY"
+      } ]
+    }, {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_TIME_DAY_D",
+      "leftTable" : "physicalTable:MyDatabase.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:MyDatabase.SAMP_TIME_DAY_D",
+      "joinConditions" : [ {
+        "leftColumn" : "ORDER_DAY_DT",
+        "rightColumn" : "CALENDAR_DATE"
+      } ]
+    }, {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_PRODUCTS_D",
+      "leftTable" : "physicalTable:MyDatabase.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:MyDatabase.SAMP_PRODUCTS_D",
+      "joinConditions" : [ {
+        "leftColumn" : "PROD_KEY",
+        "rightColumn" : "PROD_KEY"
+      } ]
+    }, {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_ADDRESSES_D",
+      "leftTable" : "physicalTable:MyDatabase.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:MyDatabase.SAMP_ADDRESSES_D",
+      "joinConditions" : [ {
+        "leftColumn" : "SHIPTO_ADDR_KEY",
+        "rightColumn" : "ADDRESS_KEY"
+      } ]
+    } ]
+  }
+}
