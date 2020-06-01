@@ -1,0 +1,42 @@
+{
+  "businessModel" : {
+    "name" : "SalesBusinessModel",
+    "disable" : false,
+    "joins" : [ {
+      "name" : "NewJoin_1",
+      "leftTable" : "logicalTable:SalesBusinessModel.SAMP_REVENUE_F",
+      "rightTable" : "logicalTable:SalesBusinessModel.SAMP_PRODUCTS_D",
+      "type" : "INNER",
+      "cardinality" : "MANYTOONE",
+      "drivingTable" : "None"
+    }, {
+      "name" : "NewJoin_2",
+      "leftTable" : "logicalTable:SalesBusinessModel.SAMP_REVENUE_F",
+      "rightTable" : "logicalTable:SalesBusinessModel.SAMP_CUSTOMERS_D",
+      "type" : "INNER",
+      "cardinality" : "MANYTOONE",
+      "drivingTable" : "None"
+    }, {
+      "name" : "NewJoin_3",
+      "leftTable" : "logicalTable:SalesBusinessModel.SAMP_REVENUE_F",
+      "rightTable" : "logicalTable:SalesBusinessModel.SAMP_TIME_DAY_D",
+      "type" : "INNER",
+      "cardinality" : "MANYTOONE",
+      "drivingTable" : "None"
+    }, {
+      "name" : "NewJoin_4",
+      "leftTable" : "logicalTable:SalesBusinessModel.SAMP_REVENUE_F",
+      "rightTable" : "logicalTable:SalesBusinessModel.SAMP_ADDRESSES_D",
+      "type" : "INNER",
+      "cardinality" : "MANYTOONE",
+      "drivingTable" : "None"
+    }, {
+      "name" : "NewJoin_5",
+      "leftTable" : "logicalTable:SalesBusinessModel.SAMP_REVENUE_F",
+      "rightTable" : "logicalTable:SalesBusinessModel.SAMP_OFFICES_D",
+      "type" : "INNER",
+      "cardinality" : "MANYTOONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}
