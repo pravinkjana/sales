@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "SAMP_PRODUCTS_D",
+    "description" : "FB_Description",
     "physicalColumns" : [ {
       "name" : "PROD_KEY",
       "dataType" : "NUMBER",
@@ -68,6 +69,10 @@
       "name" : "DSYS_BATCH_ID",
       "dataType" : "NUMBER",
       "nullable" : false
-    } ]
+    } ],
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    }
   }
 }
