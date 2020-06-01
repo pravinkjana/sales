@@ -1,0 +1,21 @@
+{
+  "subjectArea" : {
+    "name" : "SalesSubjectArea",
+    "sourceBusinessModel" : "businessModel:SalesBusinessModel",
+    "exportLogicalKeys" : false,
+    "tableOrder" : [ {
+      "name" : "presentationTable:SalesSubjectArea.SAMP_REVENUE_F"
+    }, {
+      "name" : "presentationTable:SalesSubjectArea.SAMP_CUSTOMERS_D"
+    }, {
+      "name" : "presentationTable:SalesSubjectArea.SAMP_TIME_DAY_D"
+    }, {
+      "name" : "presentationTable:SalesSubjectArea.SAMP_ADDRESSES_D"
+    }, {
+      "name" : "presentationTable:SalesSubjectArea.SAMP_OFFICES_D"
+    }, {
+      "name" : "presentationTable:SalesSubjectArea.ProductsDimension"
+    } ],
+    "localization" : { }
+  }
+}
