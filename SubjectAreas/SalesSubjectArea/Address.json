@@ -1,0 +1,74 @@
+{
+  "presentationTable" : {
+    "name" : "Address",
+    "presentationColumns" : [ {
+      "useLogicalName" : true,
+      "name" : "ADDRESS1",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.ADDRESS1"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ADDRESS2",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.ADDRESS2"
+    }, {
+      "useLogicalName" : true,
+      "name" : "POSTAL_CODE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.POSTAL_CODE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "CITY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.CITY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "STATE_PROVINCE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.STATE_PROVINCE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "CTRY_CD3_STATE_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.CTRY_CD3_STATE_NAME"
+    }, {
+      "useLogicalName" : true,
+      "name" : "CTRY_CD3_STATE_ABBRV",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.CTRY_CD3_STATE_ABBRV"
+    }, {
+      "useLogicalName" : true,
+      "name" : "CTRY_CD3_STATE_NAME_CITY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.CTRY_CD3_STATE_NAME_CITY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "LONGITUDE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.LONGITUDE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "LATITUDE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.LATITUDE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ESTAB_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.ESTAB_NAME"
+    }, {
+      "useLogicalName" : true,
+      "name" : "REGION",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.REGION"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ISO_COUNTRY_CODE3",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.ISO_COUNTRY_CODE3"
+    }, {
+      "useLogicalName" : true,
+      "name" : "COUNTRY_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.COUNTRY_NAME"
+    }, {
+      "useLogicalName" : true,
+      "name" : "STATE_PROVINCE_ABBRV",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.STATE_PROVINCE_ABBRV"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ADDRESS_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.ADDRESS_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "AREA",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_ADDRESSES_D.AREA"
+    } ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "presentationTable" : {
+    "name" : "Customers",
+    "presentationColumns" : [ {
+      "useLogicalName" : true,
+      "name" : "CUST_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.CUST_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "NAME",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.NAME"
+    }, {
+      "useLogicalName" : true,
+      "name" : "TYPE_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.TYPE_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "FST_CONTACT_DT",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.FST_CONTACT_DT"
+    }, {
+      "useLogicalName" : true,
+      "name" : "SEGMENT_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.SEGMENT_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "INCOME_LVL",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.INCOME_LVL"
+    }, {
+      "useLogicalName" : true,
+      "name" : "STATUS_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.STATUS_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "LST_ORDER_DT",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.LST_ORDER_DT"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ADDRESS_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.ADDRESS_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "MARITAL_ST",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.MARITAL_ST"
+    }, {
+      "useLogicalName" : true,
+      "name" : "PREV_MARITAL_ST",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.PREV_MARITAL_ST"
+    }, {
+      "useLogicalName" : true,
+      "name" : "PREV_MARITAL_ST_DT",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.PREV_MARITAL_ST_DT"
+    }, {
+      "useLogicalName" : true,
+      "name" : "BIRTH_DT",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.BIRTH_DT"
+    }, {
+      "useLogicalName" : true,
+      "name" : "CRDT_RATE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.CRDT_RATE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "GENDER",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.GENDER"
+    }, {
+      "useLogicalName" : true,
+      "name" : "LTV",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.LTV"
+    }, {
+      "useLogicalName" : true,
+      "name" : "NUM_ATTRIBUTE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.NUM_ATTRIBUTE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "TOTAL_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.TOTAL_VALUE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ACCOUNT_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_CUSTOMERS_D.ACCOUNT_NAME"
+    } ]
+  }
+}

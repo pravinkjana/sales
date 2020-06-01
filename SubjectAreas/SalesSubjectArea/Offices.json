@@ -1,0 +1,54 @@
+{
+  "presentationTable" : {
+    "name" : "Offices",
+    "presentationColumns" : [ {
+      "useLogicalName" : true,
+      "name" : "OFFICE_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.OFFICE_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "OFFICE_DSC",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.OFFICE_DSC"
+    }, {
+      "useLogicalName" : true,
+      "name" : "COMPANY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.COMPANY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ORGANIZATION",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.ORGANIZATION"
+    }, {
+      "useLogicalName" : true,
+      "name" : "DEPARTMENT",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.DEPARTMENT"
+    }, {
+      "useLogicalName" : true,
+      "name" : "SEQUENCE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.SEQUENCE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "COMPANY_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.COMPANY_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ORG_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.ORG_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "DEPT_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.DEPT_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ADDRESS_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.ADDRESS_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "TOTAL_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.TOTAL_VALUE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "REGION",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.SAMP_OFFICES_D.REGION"
+    } ]
+  }
+}

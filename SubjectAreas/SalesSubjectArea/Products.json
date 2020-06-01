@@ -1,0 +1,66 @@
+{
+  "presentationTable" : {
+    "name" : "Products",
+    "presentationColumns" : [ {
+      "useLogicalName" : true,
+      "name" : "PROD_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.PROD_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "PROD_DSC",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.PROD_DSC"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ATTRIBUTE_2",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.ATTRIBUTE_2"
+    }, {
+      "useLogicalName" : true,
+      "name" : "ATTRIBUTE_1",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.ATTRIBUTE_1"
+    }, {
+      "useLogicalName" : true,
+      "name" : "TYPE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.TYPE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "LOB",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.LOB"
+    }, {
+      "useLogicalName" : true,
+      "name" : "BRAND",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.BRAND"
+    }, {
+      "useLogicalName" : true,
+      "name" : "SEQUENCE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.SEQUENCE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "BRAND_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.BRAND_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "LOB_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.LOB_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "TYPE_KEY",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.TYPE_KEY"
+    }, {
+      "useLogicalName" : true,
+      "name" : "TOTAL_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.TOTAL_VALUE"
+    }, {
+      "useLogicalName" : true,
+      "name" : "DSYS_INSTANCE_ID",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.DSYS_INSTANCE_ID"
+    }, {
+      "useLogicalName" : true,
+      "name" : "DSYS_PROCESS_ID",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.DSYS_PROCESS_ID"
+    }, {
+      "useLogicalName" : true,
+      "name" : "DSYS_BATCH_ID",
+      "sourceLogicalColumn" : "logicalColumn:SalesBusinessModel.ProductsDimension.DSYS_BATCH_ID"
+    } ]
+  }
+}
